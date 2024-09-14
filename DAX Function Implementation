@@ -1,0 +1,32 @@
+All task Total
+
+All task Total = SUM('Data Sampling'[All Task])
+
+Defects Percentages
+
+Defect % = DIVIDE(SUM('Data Sampling'[Defects]), SUM('Data Sampling'[Sample]), BLANK())
+
+Defects Total
+
+Defects Total = SUM('Data Sampling'[Defects])
+
+Errors Percentage
+
+Error % = DIVIDE(SUM('Data Sampling'[Errors]), SUM('Data Sampling'[Sample]), BLANK())
+
+
+Errors Total
+
+Errors Total = SUM('Data Sampling'[Errors])
+
+Quality Score
+
+Quality Score = IF([Defect %] = BLANK(), BLANK(), 1 - [Defect %])
+
+Sample Percentages
+
+Sample % = DIVIDE(SUM('Data Sampling'[Sample]), SUM('Data Sampling'[All Task]), BLANK())
+
+Sample Total
+
+Sample Total = SUM('Data Sampling'[Sample])
