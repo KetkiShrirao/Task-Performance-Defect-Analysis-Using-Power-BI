@@ -1,6 +1,6 @@
 # Task-Performance-Defect-Analysis-Using-Power-BI
 Task Performance &amp; Defect Analysis in XYZ Company
-Problem Statement:
+**Problem Statement:**
 
 As a Data Analyst, the task is to analyze and derive insights from a dataset containing various features related to tasks, samples, defects, errors, and employee information within a company. The dataset includes the following features:
 
@@ -8,7 +8,7 @@ XYZ Company operates across multiple departments, each responsible for executing
 
 The dataset provided for analysis contains detailed records of tasks performed, including timestamps, employee IDs, department IDs, auditor IDs, manager IDs, task types, sample data, defects, and errors encountered during task execution. Additionally, the dataset includes supplementary information such as employee names, auditor names, manager names, department names, and office locations.
 
-Key Features:
+**Key Features:**
 
 ●	Date: The date when the task was recorded.
 ●	Emp Id: Employee ID, a unique identifier for each employee.
@@ -27,7 +27,7 @@ Key Features:
 
 The problem at hand involves analyzing this dataset to extract meaningful insights regarding task performance, defect rates, error occurrences, employee productivity, departmental efficiency, and managerial oversight. 
 
-Key aspects of the analysis may include:
+**Key aspects of the analysis may include:**
 
 1.	Task Performance Analysis: Evaluate the frequency and types of tasks performed over time. Identify trends in task completion rates and variations across departments and auditors.
 
